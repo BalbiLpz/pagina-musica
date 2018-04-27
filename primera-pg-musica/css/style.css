@@ -1,9 +1,14 @@
 body {
-	font-family: font-family: 'Lobster', cursive;
+	 font-family: 'Lobster', cursive;
 
 }
 
-table tr td h2 p {
-	font-family: font-family: 'Lobster', cursive;
 
+.alhambra{
+	color: yellow;
 }
+
+
+.texto-home{
+	color: silver;
+
