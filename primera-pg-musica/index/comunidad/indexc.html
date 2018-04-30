@@ -52,46 +52,66 @@
 	</table>
 
 	<!--formulario-->
-	<table width="30%">
-	<form name="prueba" action="form/indexf.html" method="get" target="_blank">
-		<tr>
-			<label class="texto-home">Nombre</label><br>
-			<input type="text" name="nombre">
-		</tr><br>
-		</tr>
-		<tr>
-			<label class="texto-home">Apellidos</label><br>
-			<input type="text" name="apellidos">
-		</tr><br>
-		<tr>
-			<input type="radio" name="genero" id="masculino" value="masculino">
-			<label class="texto-home" for="masculino">Masculino</label>		
-			<input type="radio" name="genero" id="femenino" value="femenino">
-			<label class="texto-home" for="femenino">Femenino</label>
-		</tr><br>
-		<tr>
-			<select name="instrumentos" id="instrumentos">
-				<optgroup label="Cuerdas">
-					<option value="GT" selected>Guitarra</option>
-					<option value="BJ">Bajo</option>
-					<option value="BD">Bandurria</option>
-				</optgroup>
-				<optgroup label="Percusion">
-					<option value="BT">Batería</option>
-					<option value="BG">Bongos</option>
-				</optgroup>						
-				<optgroup label="Teclas">
-					<option value="PN">Piano</option>
-					<option value="TC">Teclado</option>
-					<option value="OG">Órgano</option>
-				</optgroup>
-			</select>
+	<div class="contenedor1">
+		<table>
+			<tr>
+		<form name="prueba" action="form/indexf.html" method="get" target="_blank">
+			</tr>
+			<tr>
+				<label class="texto-home">Nombre</label><br>
+				<input type="text" name="nombre">
+			</tr><br>
+			</tr>
+			<tr>
+				<label class="texto-home">Apellidos</label><br>
+				<input type="text" name="apellidos">
+			</tr><br>
+			<tr>
+				<input type="radio" name="genero" id="masculino" value="masculino">
+				<label class="texto-home" for="masculino">Masculino</label>		
+				<input type="radio" name="genero" id="femenino" value="femenino">
+				<label class="texto-home" for="femenino">Femenino</label>
+			</tr><br><br>
+			<tr>
+				<select name="instrumentos" id="instrumentos">
+					<optgroup label="Cuerdas">
+						<option value="GT" selected>Guitarra</option>
+						<option value="BJ">Bajo</option>
+						<option value="BD">Bandurria</option>
+					</optgroup>
+					<optgroup label="Percusion">
+						<option value="BT">Batería</option>
+						<option value="BG">Bongos</option>
+					</optgroup>						
+					<optgroup label="Teclas">
+						<option value="PN">Piano</option>
+						<option value="TC">Teclado</option>
+						<option value="OG">Órgano</option>
+					</optgroup>
+				</select>
 
-		</tr>
-	</form>
+			</tr><br>
 
-	</table>
+			<tr><br><br>
+			</tr>		
+			<tr>
+					<textarea name="comentario" id="comentario" rows="8" cols="50">Comentanos...</textarea>
 
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="Enviar">
+				</td>
+				<td>
+					<input type="reset" name="Restablecer">
+				</td>	
+			</tr>
+			
+		</form>
+
+		</table>
+		
+	</div>
 	
 
 

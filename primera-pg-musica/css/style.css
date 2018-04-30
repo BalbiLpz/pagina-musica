@@ -11,4 +11,22 @@ body {
 
 .texto-home{
 	color: silver;
+	margin: 50px auto;
+}
+
+.contenedor1{
+	margin: 300px 800px 400px;
+}
+
+
+.header{
+	border:0px solid black;
+	width: 100%;
+	background: rgba(0,0,0,0.9);
+}
+
+
+}
+
+
 
