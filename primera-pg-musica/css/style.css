@@ -15,7 +15,8 @@ body {
 }
 
 .contenedor1{
-	margin: 300px 800px 400px;
+	margin: 220px 800px 400px;
+
 }
 
 
@@ -37,6 +38,12 @@ body {
 .conten {
 	width: 100px;
 	height:1000px;
+}+
+
+.icon img {
+	border-radius: 15px;
+	background: rgba(0,0,0,0.1);
+
 }
 
 
